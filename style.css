@@ -1,6 +1,4 @@
-*{
-    border: 2px solid red;
-}
+
 
 .header{
     display:flex;
@@ -33,12 +31,12 @@ ul.header-list{
     color:white;
     gap:40px;
     font-family: roboto;
+    padding:10px;
 }
 
 .left-text{
     display:flex;
     flex-direction: column;
-    justify-content: center;
     flex-wrap:wrap
 }
 
@@ -48,6 +46,132 @@ p.title-text{
     color:darkgray
 }
 
-button{
-    background-color:blue;
+button.top-button{
+    background-color: #3882F6;
+    color:white;
+    width:fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4{
+    border: 5px solid blue;
+    height:200px;
+    width:200px;
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    font-family: roboto;
+}
+
+.image-container{
+    display:flex;
+    justify-content: center;
+    gap:100px;
+}
+
+.image-text-container{
+    display:flex;
+    width:1400px;
+    justify-content: space-evenly;
+    padding:10px;
+}
+
+.box5,
+.box6,
+.box7,
+.box8{
+    height:fit-content;
+    width:125px;
+    font-family:roboto;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+
+.quote{
+    display:flex;
+    height:600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: roboto;
+    background-color: #E5E7EB;
+}
+
+.quote-container{
+    display:flex;
+    width:600px;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937
+}
+
+.speaker-container{
+    font-weight:bold;
+    margin-left:650px;
+    font-size:20px;
+}
+
+.action{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container{
+    background-color: #3882F6;
+    height:150px;
+    width:900px;
+    margin: 30px;
+    display:flex;
+    justify-content: center;
+    gap:50px;
+}
+
+.text-container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family:roboto;
+}
+
+.top-line{
+    align-self:flex-start;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.bottom-line{
+    color:lightgray;
+    font-weight: bold;
+}
+
+button.bottom-button{
+    height:fit-content;
+    align-self: center;
+    background-color: #3882F6;
+    color:white;
+    padding-left: 20px;
+    padding-right:20px;
+    border: 3px solid white;
+    font-size:17px;
+}
+
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    font-family: roboto;
+    background-color:#1F2937;
+    color:white;
 }
