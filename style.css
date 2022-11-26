@@ -1,0 +1,53 @@
+*{
+    border: 2px solid red;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    font-family: roboto;
+    background: #1F2937;
+    color: white;
+}
+
+.header-link-container{
+    display:flex;
+    width:600px;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+ul.header-list{
+    display:flex;
+    gap: 30px;
+    color: lightgray;
+    list-style-type: none;
+    font-size:18px;
+}
+
+.title{
+    display:flex;
+    justify-content: center;
+    background:#1F2937;
+    color:white;
+    gap:40px;
+    font-family: roboto;
+}
+
+.left-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:wrap
+}
+
+p.title-text{
+    font-size: 20px;
+    width: 300px;
+    color:darkgray
+}
+
+button{
+    background-color:blue;
+}
